@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <link href="http://annygrace41118.github.io/webas4/as4-1.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <title>修課表單</title>
+  </head>
+  <section>
+  <body>
+    <article id="question">
+    <h1>修課表單</h1>
+    <span class="must">欲修課同學請確實填寫此表單</span>
+    <ol>
+      <li>
+        <label for="what"><span class="ask">1.姓名</span></label><br><br>
+        <input type="text" name="w" id="what">
+      </li>
+      
+      <li>
+        <p><span class="ask">2.性別</span></p>
+        <ul>
+          <input type="radio" name="g" id="male" value="m">
+          <label for="male">男</label>
+        </ul>
+        <ul>
+          <input type="radio" name="g" id="female" value="f">
+          <label for="female">女</label>
+        </ul>
+      </li>
+
+      <li>
+        <label for="number"><span class="ask">3.學號</span></label><br><br>
+        <input type="number" min="0" name="n" id="number"><br><br>
+      </li>
+
+      <li>
+        <label for="why"><span class="ask">4.修習原因</span></label><br><br>
+        <input type="text" style="height:180px" size="50px" name="reason" id="why"><br><br>
+      </li>
+
+      <li>
+        <label for="ability"><span class="ask">5.專長</span></label><br><br>
+        <input type="text" style="height:180px" size="50px" name="a" id="ability">
+      </li>
+
+
+    </ol>
+    <input type="submit" value="送出">
+  </article>
+
+  </body>
+</section>
+</html>

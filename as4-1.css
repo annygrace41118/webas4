@@ -1,0 +1,73 @@
+section {
+  max-width: 600px;
+  background: url(http://subtlepatterns.com/patterns/light_wool.png);
+}
+
+article#question{
+  max-width:600px;
+  padding:2em;
+}
+
+#question h1{
+	color: #02DF82;
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.must{
+	color:#FF8000;
+	font-size: 1em;
+  padding-top: 1em;
+
+}
+
+.ask{
+  color: #4F4F4F;
+  font-size: 1.2em;
+}
+
+input #male{
+	color: #4F4F4F;
+}
+
+input #female{
+	color: #4F4F4F;
+}
+
+ol{
+  list-style-type: none;
+}
+
+input[type="submit"]{
+	padding: 1em;
+	background-color: #F0F0F0;
+	color: #02DF82;
+	font-weight: bold;
+}
+
+input:link{
+  text-decoration: none;
+  color: #ff7575;
+}
+input:visited{
+  color: #4F4F4F;
+}
+input:hover{
+  text-decoration: underline;
+  color: #FF8000;
+}
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section {
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
